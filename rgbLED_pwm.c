@@ -1,3 +1,14 @@
+/*
+Author: gkalns
+
+Driving common anode RGB LED.
+Anode is connected to P1.5
+Cathodes are connected to P1.2 - P1.4
+Uses PWM output, changing from MIN_VAL to MAX_VAL
+PWM frequencies are f, f/2 and f/4.
+
+*/
+
 #include <msp430.h>
 
 #define MIN_VAL	50
